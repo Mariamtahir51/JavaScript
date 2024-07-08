@@ -30,3 +30,17 @@ show();
 console.log(functionVar); // Throws ReferenceError
 console.log(functionLet); // Throws ReferenceError
 console.log(functionConst); // Throws ReferenceError
+
+{
+    let a1 = 1;
+    const a2 = 2;
+    var a3 = 3;
+
+    a1 = 11;
+    a2 = 22;
+    a3 = 33;
+}
+
+a1 = 111;
+a2 = 222;
+a3 = 333;
